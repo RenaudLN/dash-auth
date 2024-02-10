@@ -19,7 +19,9 @@ setup(
     long_description_content_type="text/markdown",
     install_requires=[
         'dash>=1.1.1',
-        "flask",
+        'flask',
+        'werkzeug',
+        'authlib',
     ],
     python_requires=">=3.8",
     include_package_data=True,
